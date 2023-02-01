@@ -48,7 +48,8 @@ btn2.grid(row=0, column=1, sticky=tk.W+tk.E)
 btn3 = tk.Button(buttonframe, text="3", font=('Arial', 15))
 btn3.grid(row=0, column=2, sticky=tk.W+tk.E)
 
-butto = tk.Button(root, text="calculator", command=click())
+#if i put command=click() instead of click(raw) then it would automatically open without me doing anything
+butto = tk.Button(root, text="calculator",command=click)
 butto.pack()
 
 buttonframe.pack()
