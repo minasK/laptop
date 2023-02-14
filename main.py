@@ -6,6 +6,8 @@ print(os.getlogin())
 
 print(dir(os))
 
+print ("hi")
+
 #gives the current working directory
 print(os.getcwd())
 
